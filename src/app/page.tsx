@@ -200,8 +200,8 @@ const Page = () => {
           <div className="flex gap-6 text-sm text-slate-500">
             <Link href="#about" onClick={(e) => {e.preventDefault(); scrollToSection('about')}} className="hover:text-indigo-600 transition-colors">About</Link>
             <Link href="#contact" onClick={(e) => {e.preventDefault(); scrollToSection('contact')}} className="hover:text-indigo-600 transition-colors">Contact</Link>
-            <Link href="#" className="hover:text-indigo-600 transition-colors">Terms of Use</Link>
-            <Link href="#" className="hover:text-indigo-600 transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="hover:text-indigo-600 transition-colors">Terms of Use</Link>
+            <Link href="/privacy" className="hover:text-indigo-600 transition-colors">Privacy Policy</Link>
           </div>
         </div>
         
