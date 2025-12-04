@@ -9,6 +9,7 @@ import {
 import { Header } from '@/components/landing/Header';
 import { AppCard } from '@/components/landing/AppCard';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Page = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -134,8 +135,8 @@ const Page = () => {
                   <Code2 size={64} className="text-indigo-600 opacity-20" />
                </div>
                <div className="relative z-10 text-center">
-                  <div className="w-24 h-24 bg-gradient-to-br from-slate-900 to-slate-700 rounded-2xl mx-auto flex items-center justify-center text-white text-3xl font-bold shadow-xl mb-4">
-                    MC
+                  <div className="w-24 h-24 bg-white p-4 rounded-2xl mx-auto flex items-center justify-center shadow-xl mb-4">
+                    <Image src="/logo.svg" alt="MedCoderX Logo" width={64} height={64} />
                   </div>
                   <p className="font-bold text-slate-900">Solo Developer</p>
                   <p className="text-sm text-slate-500">Since 2025</p>
